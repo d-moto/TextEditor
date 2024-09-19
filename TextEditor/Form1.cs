@@ -256,9 +256,9 @@ namespace TextEditor
                             tab.ImageIndex = imageList1.Images.Count - 1;
 
                             // ログとしてローカルファイルパスを表示（オプション）
-                            string localFilePath = Path.Combine(@"C:\Users\mokos\Downloads", $"{new Uri(webView.Source.ToString()).Host}_favicon.ico");
-                            resizedIcon.Save(localFilePath, System.Drawing.Imaging.ImageFormat.Icon);
-                            Console.WriteLine($"Favicon saved to: {localFilePath}");
+                            //string localFilePath = Path.Combine(@"C:\Users\mokos\Downloads", $"{new Uri(webView.Source.ToString()).Host}_favicon.ico");
+                            //resizedIcon.Save(localFilePath, System.Drawing.Imaging.ImageFormat.Icon);
+                            //Console.WriteLine($"Favicon saved to: {localFilePath}");
                         }
                     }
                 }
