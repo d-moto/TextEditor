@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.mainSplitContainer = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.mainTextBox = new System.Windows.Forms.RichTextBox();
-            this.webBrowserMainPanel = new System.Windows.Forms.SplitContainer();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -41,47 +39,44 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ファイルFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.新規作成NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.開くOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.上書き保存SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.名前を付けて保存AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.印刷PToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.印刷プレビューVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.終了XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.編集EToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.元に戻すUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.やり直しRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.切り取りTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.コピーCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.貼り付けPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.すべて選択AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ツールTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.カスタマイズCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.オプションOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ヘルプHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.内容CToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.インデックスIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.検索SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.バージョン情報AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mainTextBox = new System.Windows.Forms.RichTextBox();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.ファイルFToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.新規作成NToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.開くOToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.上書き保存SToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.名前を付けて保存AToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.印刷PToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.印刷プレビューVToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.終了XToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.編集EToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.元に戻すUToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.やり直しRToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.切り取りTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.コピーCToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.貼り付けPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.すべて選択AToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ツールTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.カスタマイズCToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.オプションOToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ヘルプHToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.内容CToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.インデックスIToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.検索SToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.バージョン情報AToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.mainSplitContainer)).BeginInit();
             this.mainSplitContainer.Panel1.SuspendLayout();
             this.mainSplitContainer.Panel2.SuspendLayout();
             this.mainSplitContainer.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.webBrowserMainPanel)).BeginInit();
-            this.webBrowserMainPanel.Panel1.SuspendLayout();
-            this.webBrowserMainPanel.Panel2.SuspendLayout();
-            this.webBrowserMainPanel.SuspendLayout();
             this.tabControl.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainSplitContainer
@@ -96,35 +91,19 @@
             // mainSplitContainer.Panel2
             // 
             this.mainSplitContainer.Panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.mainSplitContainer.Panel2.Controls.Add(this.webBrowserMainPanel);
+            this.mainSplitContainer.Panel2.Controls.Add(this.mainTextBox);
+            this.mainSplitContainer.Panel2.Controls.Add(this.menuStrip2);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.mainTextBox);
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.tabControl);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // mainTextBox
-            // 
-            resources.ApplyResources(this.mainTextBox, "mainTextBox");
-            this.mainTextBox.Name = "mainTextBox";
-            // 
-            // webBrowserMainPanel
-            // 
-            resources.ApplyResources(this.webBrowserMainPanel, "webBrowserMainPanel");
-            this.webBrowserMainPanel.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.webBrowserMainPanel.Name = "webBrowserMainPanel";
-            // 
-            // webBrowserMainPanel.Panel1
-            // 
-            this.webBrowserMainPanel.Panel1.Controls.Add(this.button4);
-            this.webBrowserMainPanel.Panel1.Controls.Add(this.button2);
-            this.webBrowserMainPanel.Panel1.Controls.Add(this.button3);
-            this.webBrowserMainPanel.Panel1.Controls.Add(this.button1);
-            // 
-            // webBrowserMainPanel.Panel2
-            // 
-            this.webBrowserMainPanel.Panel2.Controls.Add(this.tabControl);
             // 
             // button4
             // 
@@ -180,264 +159,264 @@
             resources.ApplyResources(this.imageList1, "imageList1");
             this.imageList1.TransparentColor = System.Drawing.Color.Black;
             // 
-            // menuStrip1
+            // mainTextBox
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ファイルFToolStripMenuItem,
-            this.編集EToolStripMenuItem,
-            this.ツールTToolStripMenuItem,
-            this.ヘルプHToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Name = "menuStrip1";
+            resources.ApplyResources(this.mainTextBox, "mainTextBox");
+            this.mainTextBox.Name = "mainTextBox";
             // 
-            // ファイルFToolStripMenuItem
+            // menuStrip2
             // 
-            this.ファイルFToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.新規作成NToolStripMenuItem,
-            this.開くOToolStripMenuItem,
-            this.toolStripSeparator,
-            this.上書き保存SToolStripMenuItem,
-            this.名前を付けて保存AToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.印刷PToolStripMenuItem,
-            this.印刷プレビューVToolStripMenuItem,
-            this.toolStripSeparator2,
-            this.終了XToolStripMenuItem});
-            this.ファイルFToolStripMenuItem.Name = "ファイルFToolStripMenuItem";
-            resources.ApplyResources(this.ファイルFToolStripMenuItem, "ファイルFToolStripMenuItem");
+            this.menuStrip2.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ファイルFToolStripMenuItem1,
+            this.編集EToolStripMenuItem1,
+            this.ツールTToolStripMenuItem1,
+            this.ヘルプHToolStripMenuItem1});
+            resources.ApplyResources(this.menuStrip2, "menuStrip2");
+            this.menuStrip2.Name = "menuStrip2";
             // 
-            // 新規作成NToolStripMenuItem
+            // ファイルFToolStripMenuItem1
             // 
-            resources.ApplyResources(this.新規作成NToolStripMenuItem, "新規作成NToolStripMenuItem");
-            this.新規作成NToolStripMenuItem.Name = "新規作成NToolStripMenuItem";
-            this.新規作成NToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
+            this.ファイルFToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.新規作成NToolStripMenuItem1,
+            this.開くOToolStripMenuItem1,
+            this.toolStripSeparator6,
+            this.上書き保存SToolStripMenuItem1,
+            this.名前を付けて保存AToolStripMenuItem1,
+            this.toolStripSeparator7,
+            this.印刷PToolStripMenuItem1,
+            this.印刷プレビューVToolStripMenuItem1,
+            this.toolStripSeparator8,
+            this.終了XToolStripMenuItem1});
+            this.ファイルFToolStripMenuItem1.Name = "ファイルFToolStripMenuItem1";
+            resources.ApplyResources(this.ファイルFToolStripMenuItem1, "ファイルFToolStripMenuItem1");
             // 
-            // 開くOToolStripMenuItem
+            // 新規作成NToolStripMenuItem1
             // 
-            resources.ApplyResources(this.開くOToolStripMenuItem, "開くOToolStripMenuItem");
-            this.開くOToolStripMenuItem.Name = "開くOToolStripMenuItem";
-            this.開くOToolStripMenuItem.Click += new System.EventHandler(this.openOToolStripMenuItem_Click);
+            resources.ApplyResources(this.新規作成NToolStripMenuItem1, "新規作成NToolStripMenuItem1");
+            this.新規作成NToolStripMenuItem1.Name = "新規作成NToolStripMenuItem1";
+            this.新規作成NToolStripMenuItem1.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
-            // toolStripSeparator
+            // 開くOToolStripMenuItem1
             // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            resources.ApplyResources(this.toolStripSeparator, "toolStripSeparator");
+            resources.ApplyResources(this.開くOToolStripMenuItem1, "開くOToolStripMenuItem1");
+            this.開くOToolStripMenuItem1.Name = "開くOToolStripMenuItem1";
+            this.開くOToolStripMenuItem1.Click += new System.EventHandler(this.openOToolStripMenuItem_Click);
             // 
-            // 上書き保存SToolStripMenuItem
+            // toolStripSeparator6
             // 
-            resources.ApplyResources(this.上書き保存SToolStripMenuItem, "上書き保存SToolStripMenuItem");
-            this.上書き保存SToolStripMenuItem.Name = "上書き保存SToolStripMenuItem";
-            this.上書き保存SToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             // 
-            // 名前を付けて保存AToolStripMenuItem
+            // 上書き保存SToolStripMenuItem1
             // 
-            this.名前を付けて保存AToolStripMenuItem.Name = "名前を付けて保存AToolStripMenuItem";
-            resources.ApplyResources(this.名前を付けて保存AToolStripMenuItem, "名前を付けて保存AToolStripMenuItem");
-            this.名前を付けて保存AToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
+            resources.ApplyResources(this.上書き保存SToolStripMenuItem1, "上書き保存SToolStripMenuItem1");
+            this.上書き保存SToolStripMenuItem1.Name = "上書き保存SToolStripMenuItem1";
+            this.上書き保存SToolStripMenuItem1.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
-            // toolStripSeparator1
+            // 名前を付けて保存AToolStripMenuItem1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.名前を付けて保存AToolStripMenuItem1.Name = "名前を付けて保存AToolStripMenuItem1";
+            resources.ApplyResources(this.名前を付けて保存AToolStripMenuItem1, "名前を付けて保存AToolStripMenuItem1");
+            this.名前を付けて保存AToolStripMenuItem1.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
-            // 印刷PToolStripMenuItem
+            // toolStripSeparator7
             // 
-            resources.ApplyResources(this.印刷PToolStripMenuItem, "印刷PToolStripMenuItem");
-            this.印刷PToolStripMenuItem.Name = "印刷PToolStripMenuItem";
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
             // 
-            // 印刷プレビューVToolStripMenuItem
+            // 印刷PToolStripMenuItem1
             // 
-            resources.ApplyResources(this.印刷プレビューVToolStripMenuItem, "印刷プレビューVToolStripMenuItem");
-            this.印刷プレビューVToolStripMenuItem.Name = "印刷プレビューVToolStripMenuItem";
+            resources.ApplyResources(this.印刷PToolStripMenuItem1, "印刷PToolStripMenuItem1");
+            this.印刷PToolStripMenuItem1.Name = "印刷PToolStripMenuItem1";
             // 
-            // toolStripSeparator2
+            // 印刷プレビューVToolStripMenuItem1
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            resources.ApplyResources(this.印刷プレビューVToolStripMenuItem1, "印刷プレビューVToolStripMenuItem1");
+            this.印刷プレビューVToolStripMenuItem1.Name = "印刷プレビューVToolStripMenuItem1";
             // 
-            // 終了XToolStripMenuItem
+            // toolStripSeparator8
             // 
-            this.終了XToolStripMenuItem.Name = "終了XToolStripMenuItem";
-            resources.ApplyResources(this.終了XToolStripMenuItem, "終了XToolStripMenuItem");
-            this.終了XToolStripMenuItem.Click += new System.EventHandler(this.closeWindowToolStripMenuItem_Click);
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            resources.ApplyResources(this.toolStripSeparator8, "toolStripSeparator8");
             // 
-            // 編集EToolStripMenuItem
+            // 終了XToolStripMenuItem1
             // 
-            this.編集EToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.元に戻すUToolStripMenuItem,
-            this.やり直しRToolStripMenuItem,
-            this.toolStripSeparator3,
-            this.切り取りTToolStripMenuItem,
-            this.コピーCToolStripMenuItem,
-            this.貼り付けPToolStripMenuItem,
-            this.toolStripSeparator4,
-            this.すべて選択AToolStripMenuItem});
-            this.編集EToolStripMenuItem.Name = "編集EToolStripMenuItem";
-            resources.ApplyResources(this.編集EToolStripMenuItem, "編集EToolStripMenuItem");
+            this.終了XToolStripMenuItem1.Name = "終了XToolStripMenuItem1";
+            resources.ApplyResources(this.終了XToolStripMenuItem1, "終了XToolStripMenuItem1");
+            this.終了XToolStripMenuItem1.Click += new System.EventHandler(this.closeWindowToolStripMenuItem_Click);
             // 
-            // 元に戻すUToolStripMenuItem
+            // 編集EToolStripMenuItem1
             // 
-            this.元に戻すUToolStripMenuItem.Name = "元に戻すUToolStripMenuItem";
-            resources.ApplyResources(this.元に戻すUToolStripMenuItem, "元に戻すUToolStripMenuItem");
-            this.元に戻すUToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
+            this.編集EToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.元に戻すUToolStripMenuItem1,
+            this.やり直しRToolStripMenuItem1,
+            this.toolStripSeparator9,
+            this.切り取りTToolStripMenuItem1,
+            this.コピーCToolStripMenuItem1,
+            this.貼り付けPToolStripMenuItem1,
+            this.toolStripSeparator10,
+            this.すべて選択AToolStripMenuItem1});
+            this.編集EToolStripMenuItem1.Name = "編集EToolStripMenuItem1";
+            resources.ApplyResources(this.編集EToolStripMenuItem1, "編集EToolStripMenuItem1");
             // 
-            // やり直しRToolStripMenuItem
+            // 元に戻すUToolStripMenuItem1
             // 
-            this.やり直しRToolStripMenuItem.Name = "やり直しRToolStripMenuItem";
-            resources.ApplyResources(this.やり直しRToolStripMenuItem, "やり直しRToolStripMenuItem");
-            this.やり直しRToolStripMenuItem.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
+            this.元に戻すUToolStripMenuItem1.Name = "元に戻すUToolStripMenuItem1";
+            resources.ApplyResources(this.元に戻すUToolStripMenuItem1, "元に戻すUToolStripMenuItem1");
+            this.元に戻すUToolStripMenuItem1.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
-            // toolStripSeparator3
+            // やり直しRToolStripMenuItem1
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.やり直しRToolStripMenuItem1.Name = "やり直しRToolStripMenuItem1";
+            resources.ApplyResources(this.やり直しRToolStripMenuItem1, "やり直しRToolStripMenuItem1");
+            this.やり直しRToolStripMenuItem1.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 
-            // 切り取りTToolStripMenuItem
+            // toolStripSeparator9
             // 
-            resources.ApplyResources(this.切り取りTToolStripMenuItem, "切り取りTToolStripMenuItem");
-            this.切り取りTToolStripMenuItem.Name = "切り取りTToolStripMenuItem";
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            resources.ApplyResources(this.toolStripSeparator9, "toolStripSeparator9");
             // 
-            // コピーCToolStripMenuItem
+            // 切り取りTToolStripMenuItem1
             // 
-            resources.ApplyResources(this.コピーCToolStripMenuItem, "コピーCToolStripMenuItem");
-            this.コピーCToolStripMenuItem.Name = "コピーCToolStripMenuItem";
+            resources.ApplyResources(this.切り取りTToolStripMenuItem1, "切り取りTToolStripMenuItem1");
+            this.切り取りTToolStripMenuItem1.Name = "切り取りTToolStripMenuItem1";
             // 
-            // 貼り付けPToolStripMenuItem
+            // コピーCToolStripMenuItem1
             // 
-            resources.ApplyResources(this.貼り付けPToolStripMenuItem, "貼り付けPToolStripMenuItem");
-            this.貼り付けPToolStripMenuItem.Name = "貼り付けPToolStripMenuItem";
+            resources.ApplyResources(this.コピーCToolStripMenuItem1, "コピーCToolStripMenuItem1");
+            this.コピーCToolStripMenuItem1.Name = "コピーCToolStripMenuItem1";
             // 
-            // toolStripSeparator4
+            // 貼り付けPToolStripMenuItem1
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            resources.ApplyResources(this.貼り付けPToolStripMenuItem1, "貼り付けPToolStripMenuItem1");
+            this.貼り付けPToolStripMenuItem1.Name = "貼り付けPToolStripMenuItem1";
             // 
-            // すべて選択AToolStripMenuItem
+            // toolStripSeparator10
             // 
-            this.すべて選択AToolStripMenuItem.Name = "すべて選択AToolStripMenuItem";
-            resources.ApplyResources(this.すべて選択AToolStripMenuItem, "すべて選択AToolStripMenuItem");
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            resources.ApplyResources(this.toolStripSeparator10, "toolStripSeparator10");
             // 
-            // ツールTToolStripMenuItem
+            // すべて選択AToolStripMenuItem1
             // 
-            this.ツールTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.カスタマイズCToolStripMenuItem,
-            this.オプションOToolStripMenuItem});
-            this.ツールTToolStripMenuItem.Name = "ツールTToolStripMenuItem";
-            resources.ApplyResources(this.ツールTToolStripMenuItem, "ツールTToolStripMenuItem");
+            this.すべて選択AToolStripMenuItem1.Name = "すべて選択AToolStripMenuItem1";
+            resources.ApplyResources(this.すべて選択AToolStripMenuItem1, "すべて選択AToolStripMenuItem1");
             // 
-            // カスタマイズCToolStripMenuItem
+            // ツールTToolStripMenuItem1
             // 
-            this.カスタマイズCToolStripMenuItem.Name = "カスタマイズCToolStripMenuItem";
-            resources.ApplyResources(this.カスタマイズCToolStripMenuItem, "カスタマイズCToolStripMenuItem");
+            this.ツールTToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.カスタマイズCToolStripMenuItem1,
+            this.オプションOToolStripMenuItem1});
+            this.ツールTToolStripMenuItem1.Name = "ツールTToolStripMenuItem1";
+            resources.ApplyResources(this.ツールTToolStripMenuItem1, "ツールTToolStripMenuItem1");
             // 
-            // オプションOToolStripMenuItem
+            // カスタマイズCToolStripMenuItem1
             // 
-            this.オプションOToolStripMenuItem.Name = "オプションOToolStripMenuItem";
-            resources.ApplyResources(this.オプションOToolStripMenuItem, "オプションOToolStripMenuItem");
+            this.カスタマイズCToolStripMenuItem1.Name = "カスタマイズCToolStripMenuItem1";
+            resources.ApplyResources(this.カスタマイズCToolStripMenuItem1, "カスタマイズCToolStripMenuItem1");
             // 
-            // ヘルプHToolStripMenuItem
+            // オプションOToolStripMenuItem1
             // 
-            this.ヘルプHToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.内容CToolStripMenuItem,
-            this.インデックスIToolStripMenuItem,
-            this.検索SToolStripMenuItem,
-            this.toolStripSeparator5,
-            this.バージョン情報AToolStripMenuItem});
-            this.ヘルプHToolStripMenuItem.Name = "ヘルプHToolStripMenuItem";
-            resources.ApplyResources(this.ヘルプHToolStripMenuItem, "ヘルプHToolStripMenuItem");
+            this.オプションOToolStripMenuItem1.Name = "オプションOToolStripMenuItem1";
+            resources.ApplyResources(this.オプションOToolStripMenuItem1, "オプションOToolStripMenuItem1");
             // 
-            // 内容CToolStripMenuItem
+            // ヘルプHToolStripMenuItem1
             // 
-            this.内容CToolStripMenuItem.Name = "内容CToolStripMenuItem";
-            resources.ApplyResources(this.内容CToolStripMenuItem, "内容CToolStripMenuItem");
+            this.ヘルプHToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.内容CToolStripMenuItem1,
+            this.インデックスIToolStripMenuItem1,
+            this.検索SToolStripMenuItem1,
+            this.toolStripSeparator11,
+            this.バージョン情報AToolStripMenuItem1});
+            this.ヘルプHToolStripMenuItem1.Name = "ヘルプHToolStripMenuItem1";
+            resources.ApplyResources(this.ヘルプHToolStripMenuItem1, "ヘルプHToolStripMenuItem1");
             // 
-            // インデックスIToolStripMenuItem
+            // 内容CToolStripMenuItem1
             // 
-            this.インデックスIToolStripMenuItem.Name = "インデックスIToolStripMenuItem";
-            resources.ApplyResources(this.インデックスIToolStripMenuItem, "インデックスIToolStripMenuItem");
+            this.内容CToolStripMenuItem1.Name = "内容CToolStripMenuItem1";
+            resources.ApplyResources(this.内容CToolStripMenuItem1, "内容CToolStripMenuItem1");
             // 
-            // 検索SToolStripMenuItem
+            // インデックスIToolStripMenuItem1
             // 
-            this.検索SToolStripMenuItem.Name = "検索SToolStripMenuItem";
-            resources.ApplyResources(this.検索SToolStripMenuItem, "検索SToolStripMenuItem");
+            this.インデックスIToolStripMenuItem1.Name = "インデックスIToolStripMenuItem1";
+            resources.ApplyResources(this.インデックスIToolStripMenuItem1, "インデックスIToolStripMenuItem1");
             // 
-            // toolStripSeparator5
+            // 検索SToolStripMenuItem1
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
+            this.検索SToolStripMenuItem1.Name = "検索SToolStripMenuItem1";
+            resources.ApplyResources(this.検索SToolStripMenuItem1, "検索SToolStripMenuItem1");
             // 
-            // バージョン情報AToolStripMenuItem
+            // toolStripSeparator11
             // 
-            this.バージョン情報AToolStripMenuItem.Name = "バージョン情報AToolStripMenuItem";
-            resources.ApplyResources(this.バージョン情報AToolStripMenuItem, "バージョン情報AToolStripMenuItem");
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            resources.ApplyResources(this.toolStripSeparator11, "toolStripSeparator11");
+            // 
+            // バージョン情報AToolStripMenuItem1
+            // 
+            this.バージョン情報AToolStripMenuItem1.Name = "バージョン情報AToolStripMenuItem1";
+            resources.ApplyResources(this.バージョン情報AToolStripMenuItem1, "バージョン情報AToolStripMenuItem1");
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainSplitContainer);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.loadWindow);
             this.mainSplitContainer.Panel1.ResumeLayout(false);
             this.mainSplitContainer.Panel2.ResumeLayout(false);
+            this.mainSplitContainer.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mainSplitContainer)).EndInit();
             this.mainSplitContainer.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.webBrowserMainPanel.Panel1.ResumeLayout(false);
-            this.webBrowserMainPanel.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.webBrowserMainPanel)).EndInit();
-            this.webBrowserMainPanel.ResumeLayout(false);
             this.tabControl.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.SplitContainer mainSplitContainer;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RichTextBox mainTextBox;
-        private System.Windows.Forms.SplitContainer webBrowserMainPanel;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ファイルFToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 新規作成NToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 開くOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripMenuItem 上書き保存SToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 名前を付けて保存AToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem 印刷PToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 印刷プレビューVToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem 終了XToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 編集EToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 元に戻すUToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem やり直しRToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem 切り取りTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem コピーCToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 貼り付けPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripMenuItem すべて選択AToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ツールTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem カスタマイズCToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem オプションOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ヘルプHToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 内容CToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem インデックスIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 検索SToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripMenuItem バージョン情報AToolStripMenuItem;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.RichTextBox mainTextBox;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem ファイルFToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 新規作成NToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 開くOToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripMenuItem 上書き保存SToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 名前を付けて保存AToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripMenuItem 印刷PToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 印刷プレビューVToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripMenuItem 終了XToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 編集EToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 元に戻すUToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem やり直しRToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripMenuItem 切り取りTToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem コピーCToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 貼り付けPToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
+        private System.Windows.Forms.ToolStripMenuItem すべて選択AToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ツールTToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem カスタマイズCToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem オプションOToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ヘルプHToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 内容CToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem インデックスIToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 検索SToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
+        private System.Windows.Forms.ToolStripMenuItem バージョン情報AToolStripMenuItem1;
     }
 }
 

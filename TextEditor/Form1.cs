@@ -186,6 +186,9 @@ namespace TextEditor
             // webview2でgoogleを開く
             additionalWebView.Source = new Uri("https://www.google.co.jp");
 
+            // tabのtextを一度初期化
+            tabPage1.Text = "";
+
             // WebView2が初期化された後に設定を行う
             additionalWebView.CoreWebView2InitializationCompleted += (sender, args) =>
             {
@@ -198,8 +201,14 @@ namespace TextEditor
                 // ページの読み込みが完了した時のイベント
                 additionalWebView.CoreWebView2.NavigationCompleted += (navSender, navArgs) =>
                 {
+                    // タブを更新する前に現在のタイトルをクリア
+                    tabPage1.Text = "";
+
                     // タブのタイトルをウェブページのタイトルに設定
                     tabPage1.Text = additionalWebView.CoreWebView2.DocumentTitle;
+
+                    // tabのタイトルをwebページのタイトルに更新した後に、再描画を要求する
+                    tabControl.Invalidate();
 
                     // アイコンの取得
                     UpdateTabIcon(tabPage1, additionalWebView.CoreWebView2);
@@ -247,7 +256,7 @@ namespace TextEditor
                             tab.ImageIndex = imageList1.Images.Count - 1;
 
                             // ログとしてローカルファイルパスを表示（オプション）
-                            string localFilePath = Path.Combine(@"C:\Users\xxxxx\Downloads", $"{new Uri(webView.Source.ToString()).Host}_favicon.ico");
+                            string localFilePath = Path.Combine(@"C:\Users\mokos\Downloads", $"{new Uri(webView.Source.ToString()).Host}_favicon.ico");
                             resizedIcon.Save(localFilePath, System.Drawing.Imaging.ImageFormat.Icon);
                             Console.WriteLine($"Favicon saved to: {localFilePath}");
                         }
@@ -340,6 +349,9 @@ namespace TextEditor
             WebView2 additionalWebView = new WebView2();
             additionalWebView.Dock = DockStyle.Fill;
 
+            // tabのtextを一度初期化
+            newTab.Text = "";
+
             additionalWebView.CoreWebView2InitializationCompleted += async (sender, args) =>
             {
                 if (args.IsSuccess)
@@ -347,8 +359,14 @@ namespace TextEditor
                     // ページの読み込みが完了したときのイベント
                     additionalWebView.CoreWebView2.NavigationCompleted += (navSender, navArgs) =>
                     {
+                        // タブを更新する前に現在のタイトルをクリア
+                        newTab.Text = "";
+
                         // タブのタイトルをwebページのタイトルに更新
                         newTab.Text = additionalWebView.CoreWebView2.DocumentTitle;
+
+                        // tabのタイトルをwebページのタイトルに更新した後に、再描画を要求する
+                        tabControl.Invalidate();
 
                         // アイコンの取得
                         UpdateTabIcon(newTab, additionalWebView.CoreWebView2);
